@@ -20,6 +20,10 @@ body
 	z-index: 1;
 	opacity: 80%;
 }
+.form-inline:hover
+{
+	opacity: 80%;
+}
 .navbar li
 {
 	padding-left: 15px;
@@ -90,6 +94,7 @@ input, textarea: hover
 	align-items: center;
 	margin: 0px auto;
 }
+
 .fa:hover
 {
 	opacity: 90%;
