@@ -99,13 +99,6 @@ input, textarea: hover
 {
 	opacity: 90%;
 }
-@media screen and (max-width: 800px) 
-{
-	.footer .list a
-	{
-		text-align: center;
-	}
-}
 .footer .row .col-sm-12
 {
 	padding-top: 25px;
@@ -118,6 +111,14 @@ input, textarea: hover
 	.navbar-nav li
 	{
 		float:left;
+	}
+	.footer .list a
+	{
+		text-align: center;
+	}
+	.navbar
+	{
+		opacity: 100%;
 	}
 }
 
