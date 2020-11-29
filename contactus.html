@@ -14,7 +14,7 @@
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel = "stylesheet" href = "css/css.css">
+	<link rel = "stylesheet" href = "css/contact.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,500;0,700;0,800;1,700;1,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -25,8 +25,8 @@
 <body>
 
 	<header class="mb-5">
-        <nav class="navbar navbar-container navbar-expand-lg navbar-dark bg-dark	 fixed-top ">
-			<a class="navbar-brand" href="index.html" style="font-size: 25px; padding-left: 1em;"><em>Blogger</em></a>
+        <nav class="navbar navbar-container navbar-expand-lg fixed-top " style="background: black;">
+			<a class="navbar-brand" href="index.html" style="font-size: 25px; padding-left: 1em; color: white"><em>Shopsky</em></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,21 +34,21 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="padding-left: 3.5em;">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html" style="color: white;">Home <span class="sr-only">(current)</span></a>
                 </li>
 				  <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
+                    <a class="nav-link" href="aboutus.html" style="color: white;">About Us</a>
                   </li>
                 <li class="nav-item  active">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#" style="color: white;">Contact Us</a>
                 </li>
 				  <li class="nav-item">
-                    <a class="nav-link" href="#">Disclaimer</a>
+                    <a class="nav-link" href="#" style="color: white;">Disclaimer</a>
                   </li>
                 
               </ul>
               <form class="form-inline my-2 my-lg-0" style="margin-right: 2em;">
-                <button class="btn btn-primary my-2 my-sm-0 text-white" type="submit" style="background: black;">Post</button>
+                <button class="btn btn-primary my-2 my-sm-0" type="submit" style="background: white; color: black;">Post</button>
               </form>
             </div>
           </nav>
@@ -73,7 +73,7 @@
 					<div class="form-group row">
 						<label for="firstname" class="col-md-4 col-form-label"><strong>Name:</strong></label>
 						<div class="col-7 col-md-10">
-							<input type="text" class="form-control" id = "lastname" name="lastname" placeholder="Last Name">
+							<input type="text" class="form-control" id = "lastname" name="lastname" placeholder="Name">
 						</div>
 						
 					</div>
@@ -91,8 +91,7 @@
 						<div class="col-md-10">
 							<input type="email" class="form-control" id = "emailid" name="emailid" placeholder="@gmail.com">
 						</div>
-					</div>
-					
+					</div>					
 					<div class="form-group row">
 						<div class= "col-md-7"></div>
 						<div class="col-md-4">
@@ -100,26 +99,22 @@
 								<input type = "checkbox" class="form-check-input" name="approve" id="approve" value="" style="padding-top: 1px;">
 								<label class="form-check-label" for="approve">
 									<strong>May we Contact you?</strong>
-								</label>
-								
+								</label>								
 							</div>
 						</div>					
-					</div>
-					
+					</div>					
 					<div class="form-group row">
 						<label for="feedback" class="col-md-4 col-form-label"><strong>Your FeedBack:</strong></label>
 						<div class="col-md-10">
 							<textarea class="form-control" id = "feedback" name="feedback" rows="12" placeholder="Feedback">
 							</textarea>
 						</div>
-					</div>
-					
+					</div>					
 					<div class="form-group row">
 						<div class=" col-md-10">
 							<button type="submit" class="btn text-white bg-dark"><strong>Send FeedBack</strong></button>
 						</div>
-					</div>
-					
+					</div>					
 				</form>
             </div>
              <div class="col-12 col-md">
@@ -131,23 +126,16 @@
     <footer class="footer">
         <div class="container">
             <div class="row">             
-				<div class="col-lg-3 col-sm-12 col-md-8">
-                    
-                    <img src="img/Logo.png" style="height: 200px;">
-					
-                </div>
-                <div class="list  col-lg-5 col-sm-12 col-md-4" style="text-align: left;">
-					<h5 class="offset-lg-5 offset-md-3">Links</h5>
-                    <ul class="list-unstyled offset-lg-5 offset-md-3" >
+				<div class="list  col-lg-8 col-sm-12 col-md-4" style="text-align: left;">
+					<h5>Links</h5>
+                    <ul class="list-inline " style="float: left;" >
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
 						<li><a href="#">Privacy policy</a></li>
 						<li><a href="#">Disclaimer</a></li>
-                    </ul>
-					
-                </div>
-                
+                    </ul>					
+                </div>                
                 <div class="col-lg-3 col-sm-12 col-md-12 offset-lg-1 footer-link" >
                     <div class="text-center">
 						<h5><right>Follow Us</right></h5>
@@ -161,15 +149,12 @@
            </div>
            <div class="row">             
                 <div class="col-lg-12">
-                    <p style="color: azure; text-align: left"><em>Disclaimer: Trademarks and brands are the property of their respective owners. </em></p>
+                    <p style="color: azure; text-align: left;font-size: 10px;"><em>Copyright: Trademarks and brands are the property of their respective owners. </em></p>
                 </div>
            </div>
         </div>
     </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
