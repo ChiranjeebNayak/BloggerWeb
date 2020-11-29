@@ -1,2 +1,2 @@
 # BloggerWeb
-Blogger is a bolg website.
+Blogger is a blog website.
